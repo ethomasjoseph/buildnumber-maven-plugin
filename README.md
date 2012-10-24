@@ -6,12 +6,14 @@ The mojo also has a couple of extra functions to ensure you get the proper build
 
 Optionally, you can configure this mojo to produce a revision based on a timestamp, or on a sequence, without requiring any interaction with an SCM system. Note that currently, supported SCMs are : subversion, git and mercurial.
 
-Project Origin
-----------------
+## Project Origin
+
 This is a clone of buildnumber-maven-plugin project from Codehaus repo at http://svn.codehaus.org/mojo/trunk/mojo/buildnumber-maven-plugin
 
 This repository has been cloned with the following command:
+...
 	git svn clone http://svn.codehaus.org/mojo/trunk/mojo/buildnumber-maven-plugin --no-metadata -A authors-transform.txt --no-minimize-url --trunk=http://svn.codehaus.org/mojo/trunk/mojo/buildnumber-maven-plugin --branches=http://svn.codehaus.org/mojo/branches --tags=http://svn.codehaus.org/mojo/tags buildnumber-maven-plugin
+...
 
 where authors-transform.txt can be created as explained at http://john.albin.net/git/convert-subversion-to-git
 
