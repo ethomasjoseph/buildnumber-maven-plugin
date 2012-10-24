@@ -1,4 +1,4 @@
-What Build Number Maven Plugin
+What is Build Number Maven Plugin
 ================================
 This mojo is designed to get a unique build number for each time you build your project. So while your version may remain constant at 1.0-SNAPSHOT for many iterations until release, you will have a build number that can uniquely identify each build during that time. The build number is obtained from scm, and in particular, at this time, from svn. You can then place that build number in metadata, which can be accessed from your app, if desired.
 
