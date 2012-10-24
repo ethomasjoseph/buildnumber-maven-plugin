@@ -11,9 +11,8 @@ Optionally, you can configure this mojo to produce a revision based on a timesta
 This is a clone of buildnumber-maven-plugin project from Codehaus repo at http://svn.codehaus.org/mojo/trunk/mojo/buildnumber-maven-plugin
 
 This repository has been cloned with the following command:
-...
+
 	git svn clone http://svn.codehaus.org/mojo/trunk/mojo/buildnumber-maven-plugin --no-metadata -A authors-transform.txt --no-minimize-url --trunk=http://svn.codehaus.org/mojo/trunk/mojo/buildnumber-maven-plugin --branches=http://svn.codehaus.org/mojo/branches --tags=http://svn.codehaus.org/mojo/tags buildnumber-maven-plugin
-...
 
 where authors-transform.txt can be created as explained at http://john.albin.net/git/convert-subversion-to-git
 
